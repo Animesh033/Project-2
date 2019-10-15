@@ -1,0 +1,49 @@
+body {
+     background: #fff;
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     color:#000;
+     margin: 0;
+     padding: 0;
+   }
+   .swiper-container {
+     width: 100%;
+     padding-top: 50px;
+     padding-bottom: 50px;
+   }
+   .swiper-slide {
+     background-position: center;
+     background-size: cover;
+     width: 300px;
+     height: 300px;
+   }
+/*From mdn*/
+.centered{ 
+	height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centered i{
+	width: 10em;
+}
+
+.round{
+	height: 150px;
+	width: 150px;
+	margin: 10px auto;
+	border: 1px solid #17c0eb; 
+	border-radius: 50%;
+}
+
+.round:hover{
+	color: #fff;
+	background: #17c0eb;
+	transition: 0.5s;
+}
+.yourElement {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
